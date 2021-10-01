@@ -1,0 +1,14 @@
+.rt_img{
+    height:200px;
+    width:200 px;
+   object-fit:cover;
+   border-radius:4px;
+}
+.rt_name{
+    max_width:200px;
+    text_align:center;
+    margin:12px 0px;
+}
+.RecipeTile{
+    cursor:pointer;
+}
