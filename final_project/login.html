@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+h3 {
+    margin: auto;
+    font-size: large;
+    font-family: pacifico;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px lightblue;
+    font-size: 90px;
+    border-top: lightcoral;
+    border-radius: 70px;
+    border-color: magenta;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+
+}
+
+.sub-page{
+    
+    padding: 80px;
+    position: relative;
+   
+    background-color: palevioletred;
+    width: 382px;
+    margin: 6% auto;
+    height: 100% ;  
+    border-radius: 15px ;
+    font-size: medium;
+    
+  
+}
+.navigation-bar{
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    border-radius: 20px;
+    vertical-align: auto;
+    align-items: center;
+}
+h1{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+}
+h2{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+}
+.login-form{
+    width: 400px;
+    margin: 35px auto;
+    position: relative;
+    border-color: lightgreen;
+    border-radius: 20px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: cursive;
+    border-radius: 15px;
+
+}
+
+
+button{
+    text-shadow: white;
+    background-color: #149714;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+    color: lightpink;
+    background-color: yellow;
+  }
+
+nav{
+    overflow: hidden;
+}
+nav a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        color: rgb(169, 41, 228);
+        text-align: center;
+        font-size: large;
+        font-family: cursive;
+        display: inline-block;
+    }
+.Button{
+    text-shadow: white;
+    background-color: #f8099c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+    position:relative;
+    text-align: center; 
+ }
+ header{
+    background: pink;
+    
+ }
+
+    
+
+
+</style>
+<header>
+    <h3>Welcome to login page </h3>
+    <nav>
+        <a href='home.html'>HOME</a>
+        <a href='register.html'>REGISTER</a>
+
+    
+    </nav>
+    
+</header>
+
+<body>
+    
+    <div class="full-page">
+        
+    
+        <div class="sub-page">
+            <hr>
+            <center> <h1> <b> HEALTHY DIET PLANNER</b></h1></center>
+            <hr>
+            
+            <div class="navigation-bar">
+                
+                
+            </div>
+                
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                            <form class="login-form">
+                                <center><h2 class="main-heading"><b>Login Details</b></h2></center>
+				                <input type="text"placeholder="user name"/ required>
+				                <input type="password"placeholder="password"/ required>
+                                <div class='button1'>
+                                    <a href="index.html"><button type="Go to meal-option page">LOGIN</button></a>
+                                   </div>
+				                
+                                
+				            </form>
+                           
+                           
+                            
+			             </div>
+	                </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+    
+    </div>
+    <div class='button1'>
+        <a href="index.html"><button type="Go to meal-option page">LOGIN</button></a>
+       </div>
+    
+</body>
+</html>

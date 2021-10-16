@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(background.jpg);
+}
+.full-page{
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Arial';  
+    background-image: url(background.jpg);
+    
+}
+div nav{
+    display: inline-block;
+    align-content: center;
+    color: red;
+}
+ul{
+    list-style: square;
+    align-items: center;
+    font-size: medium;
+    font-style: italic;
+}
+
+.sub-page{
+    background-color: palevioletred;
+    width: 382px;
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;   
+    border-radius: 15px ;
+    font-size: medium;
+    
+  
+}
+h1{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+}
+h2{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+}
+
+
+
+.navigation-bar{
+    width: 80%;
+    margin:  5% auto;
+    position: relative;
+    border-radius: 20px;
+    vertical-align: auto;
+    align-items: center;
+}
+
+.login-form{
+    width: 400px;
+    margin: 35px auto;
+    position: relative;
+    border-color: lightgreen;
+    border-radius: 20px;
+}
+
+.register-form{
+    width: 400px;
+    margin: 35px auto;
+    position: relative;
+    border-color: lightgreen;
+    border-radius: 20px;
+
+}
+button{
+    text-shadow: white;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+  }
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: cursive;
+    border-radius: 15px;
+
+}
+.logo {
+    text-align: left;
+    font-size: x-small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ul#MenuItems{
+    min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+    ul#MenuItems li{
+        text-align: left;
+    
+    }
+
+    

@@ -1,0 +1,19 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+h1{
+    margin: auto;
+    font-size: large;
+    font-family: pacifico;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px lightblue;
+    font-size: 90px;
+    border-top: lightcoral;
+    border-radius: 70px;
+    border-color: magenta;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+}
