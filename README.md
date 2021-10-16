@@ -1,2 +1,2 @@
 
-Our final_project directory contains all the front-end componects of our website
+Our final_project directory contains all the front-end components of our website
