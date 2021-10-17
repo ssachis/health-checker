@@ -1,0 +1,41 @@
+    *{
+
+    }
+    h3 {
+    margin: auto;
+    color: rgb(104, 66, 240);
+    text-shadow: yellow;
+    font-size: large;
+    font-family: cursive;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px lightblue;
+    font-size: 90px;
+    border-top: lightcoral;
+    border-radius: 70px;
+    border-color: magenta;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+
+}
+textarea{
+        background: linear-gradient(to right,rgb(133, 232, 250), rgb(70, 117, 248));
+        align-self: center;
+    }
+.sub-page{
+    border-radius: 170px;
+    padding: 200px;
+    position: relative;
+    background-color: lightblue;
+    width: 400px;
+    margin: 6% auto;
+    height: 100% ;
+    font-size: medium;
+    text-shadow: lightcoral;
+}
+body{
+    background-image: url(input1.jpg);
+        background-repeat: no-repeat;
+       background-size: cover;
+}

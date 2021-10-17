@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\css\dieticianregister.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Dietician login</title>
+
+</head>
+
+<header>
+    <h3>Welcome to login page </h3>
+    <nav>
+        <a href='/'>HOME</a>
+        <a href='/dieticianregister'>REGISTER</a>
+        
+
+    
+    </nav>
+    
+</header>
+<body>
+    
+    <div class="full-page">
+        
+    
+        <div class="sub-page">
+            
+            <center> <h1> <b> HEALTHY DIET PLANNER</b></h1></center>
+            
+            
+            <div class="navigation-bar">
+                
+                
+            </div>
+                
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                            <form class="login-form" method="post" action="/mentorlogin_validation">
+                                <center><h2 class="main-heading"><b>Login Details</b></h2></center>
+				                <input type="email"placeholder="email" name="dietemail"/ required>
+				                <input type="password"placeholder="password" name="dietpassword"/ required>
+                                <div class='button1'>
+                                    <a href="/dieticianafterlogin"><button type="Go to meal-option page">LOGIN</button></a>
+                                   </div>
+                                
+				                
+                                
+                                
+				            </form>
+                            
+			             </div>
+	                </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+    
+    </div>
+    <div class='button1'>
+        <a href="/index-diet"><button type="Go to meal-option page">LOGIN</button></a>
+       </div>
+    
+</body>
+<footer>
+
+</footer>
+</html>

@@ -1,0 +1,71 @@
+  body{
+    background-image: url(butter1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    color: rgb(189, 31, 31);
+
+
+}
+h1{
+
+    margin: auto;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    text-align: center;
+    color: pink;
+    text-shadow: 5px 5px 5px black;
+    font-size: 90px;
+    border-top: lightcoral;
+    border-radius: 70px;
+    border-color: magenta;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+}
+.ask{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    color: rgb(248, 28, 28);
+    font-family: cursive;
+}
+
+.answer{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    color: rgb(130, 207, 238);
+    font-family: cursive;
+}
+.profile.img{
+       float: left;
+}
+.details{
+
+    font-family: pacifico;
+}
+.photo{
+    color: white;
+}
+
+submit{
+    color: turquoise;
+}
+  nav{
+    overflow: hidden;
+
+}
+nav a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        color: rgb(97, 28, 226);
+        text-align: center;
+        display: inline;
+
+    }
