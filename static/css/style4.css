@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: relative;
+
+    text-align: center;
+    font-size: large;
+    background-image: url(health2.jpg);
+
+}
+.sub-page{
+
+    padding: 80px;
+    position: relative;
+    background-color: pink;
+    background-image: url(health3.jpg);
+    backdrop-filter: blur(5px);
+    width: 70%;
+    margin: 6% auto;
+    height: 100% ;
+    border-radius: 5px ;
+    font-size: x-large;
+    text-decoration: red;
+
+
+}
+
+input[type=text], input[type=number], input[type=email]{
+
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    border: 2px solid red;
+    border-radius: 4px;
+    font-size: x-large;
+    text-decoration: red;
+    backdrop-filter: blur(5px);
+  }
+  textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    resize: vertical;
+    backdrop-filter: blur(5px);
+  }
+
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    text-align: left;
+    text-decoration: red;
+    font-size: x-large;
+    backdrop-filter: blur(5px);
+  }
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    margin: 4px 2px;
+    backdrop-filter: blur(5px);
+
+
+
+  }
+  .newform{
+      position: relative;
+      text-align: center;
+      height: 100%;
+      backdrop-filter: blur(5px);
+  }
+  form{
+      height: 100%;
+      font-size: large;
+  }
+  select{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    border: 2px solid red;
+    border-radius: 4px;
+    font-size: x-large;
+    text-decoration: red;
+    font: optional;
+    backdrop-filter: blur(5px);
+  }
+  h1{
+    backdrop-filter: blur(15px);
+    font-family: pacifico;
+    font-size: xx-large;
+    text-decoration: blue;
+    color:#f8099c;
+  }
+  .Button{
+    text-shadow: white;
+    background-color: #f8099c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+
+}
+.Button:hover {
+  opacity: 0.8;
+  color: lightpink;
+  background-color: yellow;
+}
