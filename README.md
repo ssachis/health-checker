@@ -8,5 +8,7 @@ contributors-
 
 2.vidhi(front-end)
 3.sachi(management)
-[![Watch the video](https://img.youtube.com/vi/wVyWyE8m8CI/maxresdefault.jpg)](https://youtu.be/wVyWyE8m8CI)
-https://user-images.githubusercontent.com/89895559/137643735-c02ea2f7-a8b2-4b50-8e83-e92df2e92315.mp4
+
+
+
+https://user-images.githubusercontent.com/89895559/137643847-26d3d80a-4501-4798-84c1-8fc32c64a1f8.mp4
