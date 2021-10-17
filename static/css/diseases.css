@@ -1,0 +1,87 @@
+  *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(heartbeat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+    color: crimson;
+    font-family: cursive;
+}
+h4{
+    color: red;
+}
+nav{
+    overflow: hidden;
+}
+nav a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        color: white;
+        text-align: center;
+        font-size: large;
+        font-family: cursive;
+        display: inline-table;
+
+}
+button{
+    text-shadow: white;
+    font-family: cursive;
+    background-color: rgb(252, 181, 181);
+    color: rgb(36, 56, 240);
+    padding: 25px 25px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+
+
+
+
+
+}
+h3 {
+    margin: auto;
+    font-size: large;
+    font-family: cursive;
+    color: white;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px lightblue;
+    font-size: 90px;
+    border-top: lightcoral;
+    border-radius: 70px;
+    border-color: magenta;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+
+}
+
+button:hover {
+    opacity: 0.8;
+    color: lightpink;
+    background-color: yellow;
+  }
+  .sub-page{
+
+    padding: 100px;
+    position: relative;
+    background-color: lightblue;
+    width: 382px;
+    margin: 6% auto;
+    height: 100% ;
+    border-radius: 15px ;
+    font-size: medium;
+    text-shadow: lightcoral;
+    background-image: url(heart2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

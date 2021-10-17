@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\css\custom-diet.css">
+    <title>Customised diet plan</title>
+</head>
+<style>
+
+
+</style>
+<nav>
+    <a href="/index">BACK</a>
+</nav>
+<header>
+    <h3>Customised diet-plan</h3>
+</header>
+<body>
+    <div class="sub-page">
+        <!-- <textarea cols="60" rows="40"></textarea> --!>
+        <div class="details">
+            <div class="row2">
+                { % for add_diet_plan in adddietdetails % }
+                    <h6 class="ask">Breakfast:</h6>
+                    <div class="answer">
+                        {{add_diet_plan[0]}}
+                </div>
+                </div>
+                <br>
+
+            <div class="row2">
+                    <h6 class="ask">Lunch:</h6>
+                    <div class="answer">
+                        {{add_diet_plan[1]}}
+                </div>
+                </div>
+                <br>
+
+            <div class="row2">
+                    <h6 class="ask">Dinner:</h6>
+                    <div class="answer">
+                        {{add_diet_plan[2]}}
+                </div>
+                </div>
+                <br>
+            { % endfor % }
+        </div>
+        --By Dr. Suresh Sharma
+    </div>
+    
+</body>
+</html>
