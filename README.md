@@ -4,9 +4,9 @@ static/css
 templates folder and main.py contains the backend of the code
 the chatbot.py contains the python code wriiten using ml algo for our site though its not yet integrated to our site
 contributors-
-1.varsha(backend)
+1.varsha(front-end)
 
-2.vidhi(front-end)
+2.vidhi(back-end)
 3.sachi(management)
 
 
