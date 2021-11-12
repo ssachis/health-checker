@@ -7,7 +7,7 @@ contributors-
 1.varsha(front-end)
 
 2.vidhi(back-end)
-3.sachi(front-end + management)
+3.sachi(front-end+react + management)
 
 
 
