@@ -1,8 +1,8 @@
 
 Our final_project directory contains all the front-end components of our website,
-static/css
-the react app has been connected to edemam api from where it fetches recipes
-templates folder and main.py contains the backend of the code
+*
+the react app has been connected to edemam api from where it fetches recipes*
+static/css,templates folder and main.py contains the backend of the code
 the chatbot.py contains the python code wriiten using ml algo for our site though its not yet integrated to our site
 
 contributors-
